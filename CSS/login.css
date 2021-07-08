@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.contenedorflexlogin {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+
+}
+
+footer h3 {
+    background-color:#00669F;
+    color:white;
+    font-size: 0.5em;
+}
+footer {
+    height: 3em;
+}

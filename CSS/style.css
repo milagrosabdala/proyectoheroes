@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	font-weight: bold;
+}
+/*-----header----*/
+header {
+	position: sticky;
+	top: -40px;
+	background-color: #00669f;
+	box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+	z-index: 9999;
+}
+
+.preheader {
+	height: 40px;
+	color: black;
+	background-color: #d1891c;
+	padding: 10px;
+}
+
+.titulo {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+/*----main----*/
+
+.container {
+	max-width: 90vw;
+	margin: auto;
+	display: flex;
+	align-items: stretch;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/*----cards---*/
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	max-width: 300px;
+	height: fit-content;
+	margin: 2em 1em 4em;
+	box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.avatar {
+	display: block;
+	position: relative;
+	z-index: 800;
+	width: 7em;
+	border-radius: 100%;
+	bottom: -50%;
+	left: calc(150px - 58.33px);
+}
+
+.cardtext {
+	display: flex;
+	flex-direction: column;
+	min-height: 450px;
+	color: #333333;
+	background-color: #f3f3f3;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+	gap: 30px;
+	text-align: justify;
+}
+
+.titulocard {
+	font-weight: 700;
+	position: relative;
+	width: 300px;
+	padding: 15px;
+	top: 40px;
+	text-align: center;
+}
+
+.parrafotext {
+	text-align: center;
+	font-size: 1em;
+	max-width: 250px;
+}
+
+.hearticon {
+	display: block;
+	position: relative;
+	color: red;
+	font-size: 2em;
+	top: 12px;
+	left: 21px;
+}
+
+.ver-mas {
+
+	display: block;
+	position: relative;
+	bottom: 1em;
+	font-size: 1em;
+	color: white;
+	background-color: #00669f;
+	padding: 1em 2em;
+	border-radius: 5px;
+	text-align: center;
+}
+/*BATMAN*/
+
+.fondobatman {
+	width: 300px;
+	height: 193px;
+	background-color: blueviolet;
+	background-image: url(../img/fondobatman.png);
+	background-size: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*MUJERMARAVILLA*/
+.fondomujermaravilla {
+	width: 300px;
+	height: 193px;
+	background-color: blueviolet;
+	background-image: url(../img/fondomujermaravilla.png);
+	background-size: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*SUPERMAN*/
+.fondosuperman {
+	width: 300px;
+	height: 193px;
+	background-color: blueviolet;
+	background-image: url(../img/fondosuperman.png);
+	background-size: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*HARLEY*/
+.fondoharley {
+	width: 300px;
+	height: 193px;
+	background-color: blueviolet;
+	background-image: url(../img/fondoharley.png);
+	background-size: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*----footer----*/
+.footerflex {
+	position: fixed;
+	bottom: 0px;
+	height: 2em;
+	width: 100vw;
+	display: flex;
+	color: white;
+	background-color: #00669f;
+	align-content: center;
+	z-index: 900;
+}
