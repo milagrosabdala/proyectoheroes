@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 * {
 	margin: 0px;
 	padding: 0;
@@ -15,6 +16,7 @@ a {
 a:hover {
 	font-weight: bold;
 }
+
 /*-----header----*/
 header {
 	position: sticky;
@@ -36,6 +38,19 @@ header {
 	align-items: center;
 	padding: 10px;
 }
+
+h1{font-family:'Gloria Hallelujah' ;}
+.navegacion {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 3em;
+	background-color: black;
+	padding-right: 1em;
+}
+
+
+
 
 /*----main----*/
 
@@ -88,6 +103,7 @@ header {
 }
 
 .titulocard {
+	font-family: 'Gloria Hallelujah';
 	font-weight: 700;
 	position: relative;
 	width: 300px;
@@ -112,7 +128,6 @@ header {
 }
 
 .ver-mas {
-
 	display: block;
 	position: relative;
 	bottom: 1em;
@@ -171,8 +186,21 @@ header {
 	height: 2em;
 	width: 100vw;
 	display: flex;
+	justify-content: space-between;
 	color: white;
 	background-color: #00669f;
 	align-content: center;
 	z-index: 900;
+}
+
+.derechosreservados {
+	display: block;
+
+	position: relative;
+	left: 40vw;
+}
+
+.github {
+	display: block;
+	padding: 0em 1em;
 }

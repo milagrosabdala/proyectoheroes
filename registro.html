@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/login.css">
     <title>Registro</title>
+    <link rel="stylesheet" href="CSS/registro.css">
 </head>
+
 <body>
 
     <header>
-
+        <div class="preheader">
+            <p>20% de descuento en todos los productos</p>
+        </div>
+        <div class="titulo">
+            <img src="img/logo-ecommerce.png" alt="logoecommerce">
+            <h2>Card Super Heroes</h2>
+        </div>
     </header>
+
+
     <main>
+        <section>
+            <h1>Registro</h1>
+            <form>
 
-        <form action="#" method="POST" class=".contenedorflexlogin">
-                        
-            <label><input type="text" name="nombre" id="nombre">Nombre y Apellido</label>
+                <label><input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido"></label>
 
-            <label><input type="email" name="email">Correo Electronico</label>
+                <label><input type="email" name="email" placeholder="Correo Electrónico"></label>
 
-            <label><input type="password" name="clave">Contraseña</label>
-            <div>
-            <label for="pais">Pais</label>
-            <label><select name="pais" id="pais"></label>
-                <option value="Argentina">Argentina</option>
-                <option value="Brasil">Brasil</option>
-                <option value="Colombia">Colombia</option>
-            </div>
-            <button type="reset">
-                Resetear
-            </button>    
-            <button type="submit">
-                Entrar
-            </button>
+                <label><input type="password" name="clave" placeholder="Contraseña"></label>
+                <select name="pais" id="pais">
+                    <option value="Argentina"></option>
+                    <option value="Colombia"></option>
+                    <option value="Brasil"></option>
+                </select>
 
-        </form>
 
+
+                <div class="botones">
+                    <button type="reset" class="reset"> Resetear </button>
+                    <button type="submit" class="submit"> Entrar </button>
+                </div>
+            </form>
+
+            <p>Ya tenés una cuenta? <a href="login.html"> ingresá </a></p>
+        </section>
     </main>
+
     <footer>
-        
+        <p>Todos los derechos reservados a FRONT END 1</p>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD SUPERHERO</title>
+    <link rel="stylesheet" href="CSS/addsuperheroe.css">
+</head>
+
+<body>
+    <header>
+        <div class="preheader">
+            <p>20% de descuento en todos los productos</p>
+        </div>
+        <div class="titulo">
+            <img src="img/logo-ecommerce.png" alt="logoecommerce">
+            <h2>Card Super Heroes</h2>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section>
+            <div class="titulos">
+                <h1>Añadí tu Superhéroe!</h1>
+                <h2>Agregá tu personaje favorito completando las opciones.</h2>
+            </div>
+            <div class="central">
+
+                <form class="columna1">
+                    <label for="nombre">*Nombre<input type="text" placeholder="Bestia" required></label>
+
+                    <label for="Fecha">Fecha <input type="date" required></label>
+
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                        placeholder="Descripción"></textarea>
+
+                </form>
+                <form class="columna2">
+                    <label for="especie" required>*Especie
+                        <select name="especie" id="especie" required>
+                            <option value="disabled" disabled selected>Selecciona una Opción</option>
+                            <option value="agua">Agua</option>
+                            <option value="aire">Aire</option>
+                            <option value="fuego">Fuego</option>
+                            <option value="tierra">Tierra</option>
+                        </select>
+                    </label>
+                    <label for="Agregarfoto">Agregar Foto<input type="file" name="agregarfoto"
+                            accept=".jpg, .png, .pdf"></label>
+                    <div class="checkbox">
+                        <label for="PODERES">PODERES</label>
+                        <label for="poderes"><input type="checkbox" name="poderes" value="Volar">Volar</label>
+                        <label for="poderes"><input type="checkbox" name="poderes"
+                                value="superinteligencia">SuperInteligencia</label>
+                        <label for="poderes"><input type="checkbox" name="poderes" value="visionX">VisiónX</label>
+                        <label for="poderes"><input type="checkbox" name="poderes" value="Superfuerza">Súper
+                            Fuerza</label>
+                        <hr>
+                    </div>
+                    <div class="radiobuttons">
+                        <span> TIPO DE PERSONAJE</span> 
+                        <label><input type="radio">Heroe</label>
+                        <label><input type="radio">Villano</label>
+                    </div>
+            </div>
+
+
+
+            </form>
+            </div>
+
+
+
+            <div class="boton">
+                <button type="submit">Añadir</button>
+            </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+    </main>
+
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

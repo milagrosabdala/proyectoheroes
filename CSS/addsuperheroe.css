@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+/*GLOBAL*/
+
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER*/
+
+.preheader {
+	color: black;
+	background-color: #1cd1b0;
+	font-weight: bold;
+}
+
+.titulo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #00669f;
+	box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*MAIN*/
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 70vw;
+	height: 100vh;
+	background-color: #00669f;
+	margin: 80px 300px 300px 300px;
+}
+
+/*DIV TITULOS*/
+.titulos {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+/*CENTRAL*/
+.central {
+	display: flex;
+	justify-content: space-around;
+	height: 50%;
+	width: 50%;
+}
+
+.columna1,
+.columna2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.columna1 label, textarea{ display: flex ; 
+	flex-direction:column;}
+
+.columna2 label{display: flex;flex-direction: column;}
+.checkbox{display: flex;flex-direction: column;}
+.checkbox label{display: inline-block;}
+.radiobuttons {display: flex;flex-direction: column;}
+.radiobuttons label{display: inline-block}
+
+/*DIV BOTON*/
+button {
+	position: relative;
+	bottom: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	color: black;
+	background-color: #1cd1b0;
+	border-width: 0;
+	border-radius: 15px;
+	padding: 1em 5em;
+}
+
+/*FOOTER*/
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 3em;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	background-color: #00669f;
+}
