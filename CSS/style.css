@@ -40,6 +40,13 @@ header {
 }
 
 h1{font-family:'Gloria Hallelujah' ;}
+
+h1:hover{animation: animacionh1 100ms 2 alternate;
+animation-origin: bottom right}
+
+@keyframes animacionh1 {transform: rotate(180deg);}
+
+
 .navegacion {
 	display: flex;
 	justify-content: flex-end;
